@@ -1,0 +1,52 @@
+clear : 터미널 화면 지우기 
+pwd: 터미널의 현재 경로 (위치)를 표시해줌
+ls: 현재 폴더의 파일 혹은 폴더 리스트를 보여줌
+	- : 옵션 추가 명령어
+	a : 모든 파일 및 폴더를 보여줌				
+	l : 파일 혹은 폴더의 상세 정보를 보여줌 
+
+- rwx (1) / rwx (2) / rwx (3)         
+1 rwx : 소유주에 대한 권한         
+2 rwx : 소유그룹에 대한 권한
+3 rwx : 기타 타인
+r : 읽기 / w : 작성 / x : 실행
+
+
+cd : 폴더 이동    cd ~ :홈으로
+/ : 현재 위치
+. : 뒤
+
+mkdir : 폴더 생성 명령어 
+
+rm 파일/폴더명 : 파일 혹은 폴더를 삭제
+rm -r 옵션 : 폴더 안에 있는 하위 폴더와 파일까지 모두 삭제 
+
+vim : 파일명 (확장자 포함) :  vim editor를 사용하여 파일 생성 
+			vim editor를 사용하여 파일 열기
+		vim editor 실행 직후는 읽기 모드임
+			-> 쓰기 모드로 변경하기 위해서는
+			I or A 키를 입력하여 쓰기 모드로 변경 가능
+			-> 쓰기 모드기 에서 읽기 모드로 변경할 때는 ESC
+			-> 읽기 모드에서 파일을 저장 및 종료를 하기위해서는 
+			    :w - 저장 / :q - 종료 / :wq 저장 후 종료 / q! - 저장하지 않고 종료(강제종료)
+
+git remote add 리포지토리이름 리포지토리 주소(https://github.com/rlaekdls1937/test.git)
+
+git push 리포지토리이름 브랜치명
+
+git push -u 리포지토리이름 브랜치명 
+: 다음 푸쉬부터는 반드시 지정한 리포지토리이름 브랜치명으로 푸쉬함
+-> git push 만 입력해도 해당 리포지토리이름 브랜치명으로 푸쉬됨 
+
+git pull 리포지토리명 브랜치: 외부리포지토리 변경 상태를 받아옴(단, 반드시 로컬 브랜치가 커밋이 되어있는 상태)
+
+푸쉬 순서
+git add .  
+git commit -m "설명"
+git push origin main // git push -u origin main(이후에는 git push만 적어도 됨)
+
+풀 순서
+git init 
+git remote add 리포지토리이름 리포지토리 주소(https://github.com/rlaekdls1937/test.git) 
+
+-- 오류 날 경우 .git 삭제하고 다시 git init 하기

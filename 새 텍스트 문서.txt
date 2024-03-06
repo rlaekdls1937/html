@@ -1,0 +1,31 @@
+달팽이 알고리즘
+
+3 X 3
+D R U U L L D D
+4 X 4
+D R U U L L D D D R R R U U U
+5 X 5
+D R U U L L D D D R R R U U U U L L L L D D D D
+6 X 6
+D R /U U L L/ D D D R R R /U U U U L L L L/ D D D D R R R R R /U U U U U
+
+                                                 4
+	3                           7      6     5      16
+      7    6    5		     8	1     4	  15	      
+      8	1    4		     9	2     3      14
+      9	2    3                     10     11   12     13
+마방진 알고리즘 (홀수)
+
+변수선언 6
+1         1
+1         1
+1         1
+1  1  1  1  1  1  1
+1
+1
+1
+
+
+
+
+3번 
