@@ -8,6 +8,8 @@
 }
 *{
     font-family: KakaoRegular,sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 .kakao-regular-font {
     font-family: 'KakaoRegular',sans-serif;
@@ -70,7 +72,14 @@ body{
     display: flex;
     gap: 12px;
 }
+/* button */
 .icon-button{
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background-size: 100%;
+}
+.icon-button2{
     width: 56px;
     height: 56px;
     border-radius: 12px;
@@ -89,6 +98,7 @@ body{
 .more:hover{
     background-color: rgba(0,0,0,1);
 }
+/* url */
 .kakaotalk{
     background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/kakaoService/c9424536018c00001.png);
 }
@@ -97,6 +107,15 @@ body{
 }
 .story{
     background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/kakaoService/c942653a018c00001.png);
+}
+.kakaotalk-channel{
+    background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/kakaoService/c9468d8a018c00001.png);
+}
+.cloud{
+    background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/kakaoService/c9469d4a018c00001.png);
+}
+.story-agit{
+    background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/kakaoService/c946aa55018c00001.png);
 }
 /* More Box */
 .more-box{
