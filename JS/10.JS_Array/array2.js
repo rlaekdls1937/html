@@ -101,4 +101,3 @@ const findIndexResult = array.findIndex(function(item,index){
 console.log(findIndexResult);
 
 console.log('==============================');
-
