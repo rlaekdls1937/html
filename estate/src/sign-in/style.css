@@ -27,7 +27,6 @@
     gap: 24px;
 
     width: 380px;
-    height: 523px;
     /* background-color: wheat */
 }
 
@@ -44,42 +43,14 @@
     width: 100%;
 }
 
+
+
 .sign-in-input-container {
     display: flex;
     flex-direction: column;
     gap: 14px;
 
     width: 100%;
-}
-
-.input-box {
-    width: 100%;
-}
-
-.input-label {
-    color: rgba(138,146,166,1);
-}
-
-.input-content-box{
-    display: flex;
-    gap: 10px;
-
-    margin-top: 8px;
-    margin-bottom: 4px;
-}
-
-.input-message{
-    font-size: 13px;
-    font-size: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.primary{
-    color: rgba(58,87,232,1);
-}
-.error{
-    color:rgba(255,84,62,1);
 }
 
 .sign-in-button-container{
@@ -90,7 +61,6 @@
 
     width: 100%;
 }
-
 .sign-in-sns-container{
     display: flex;
     flex-direction: column;
@@ -98,11 +68,4 @@
     gap: 16px;
 }
 
-.sns-container-title{
-    color: rgba(138,146,166,1);
-}
 
-.sns-button-container{
-    display: flex;
-    gap: 24px;
-}
