@@ -1,2 +1,2 @@
-const variable: string = 'typescipt';
+let variable: string = 'typescipt';
 console.log(variable);
